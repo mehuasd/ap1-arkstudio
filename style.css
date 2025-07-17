@@ -101,6 +101,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 50px 50px 80px 50px;
 }
 .card-container{
     display: grid;
@@ -115,11 +116,72 @@ body{
     margin: 20px;
     flex-direction: column;
 }
+.bcr{
+    font-family:'Arial';
+    color: #6e6e6e;
+}
 .shead{
     margin: 20px 0px 10px 0px;
     padding: 0px;
+    /* color: #6e6e6e; */
+    font-family: Arial;
 }
 .scontent{
     margin: 0px;
     padding: 0px;
+    /* font-family: Arial; */
+}
+/* ---------- */
+
+.gallery-container{
+    display: flex;
+    /* grid-template-columns: repeat(5,1fr); */
+    /* width: 100%; */
+    gap: 0px;
+}
+.gallery-img{
+    width: 304px;
+}
+
+/* ---------- */
+
+.t-head{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+#testimonials{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonials-container{
+    background-color: #afa5a51b;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    padding: 0px;
+    width: 70%;
+    /* gap: 10px; */
+}
+.john{
+    font-weight: 800;
+}
+.timage{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.tcard{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: auto;
+    margin: 0px;
+    flex-direction: column;
+    width: 60%;
+}
+.tcontainer{
+    display: flex;
+    justify-content: center;
 }
