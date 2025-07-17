@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+}
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    /* color: #fff; */
+    background-color: #fff;
+    font-family: arial;
+    opacity: 0.8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.navbar2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    font-family: arial;
+    opacity: 0.9;
+    /* padding: 20px; */
+    width: 100%;
+    font-weight: 500;
+}
+.nav2-text{
+    margin-left: 20px;
+}
+.nav2-btn{
+    background-color: #50ccff;
+    padding: 10px 20px;
+    color: #fff ;
+    text-transform: uppercase;
+    margin: 20px;
+    
+}
+
+/* -------------------------- */
+
+#hero-container{
+    background-image: url("media/billboard.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* -------------------------- */
+/* #sec-container{
+    display: flex;
+    justify-content: center;
+} */
+/* .mcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card{
+    display: flex;
+    background-color: #50ccff;
+    justify-content: center;
+
+} */
+/* .cent{
+    text-align: center;
+} */
+
+#sec-container{
+    display: flex;
+    justify-content: center;
+}
+.mcontainer{
+    width: 70%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    background-color: #e0b5b5;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: auto;
+    margin: 20px;
+    flex-direction: column;
+}
