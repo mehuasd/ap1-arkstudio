@@ -93,10 +93,11 @@ body{
 #sec-container{
     display: flex;
     justify-content: center;
+    background-color: #ffffff;
 }
 .mcontainer{
     width: 70%;
-    background-color: antiquewhite;
+    background-color: #afa5a51b;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -104,13 +105,21 @@ body{
 .card-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 50px;
 }
 .card{
-    background-color: #e0b5b5;
     display: flex;
     justify-items: center;
     text-align: center;
     grid-template-columns: auto;
     margin: 20px;
     flex-direction: column;
+}
+.shead{
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+}
+.scontent{
+    margin: 0px;
+    padding: 0px;
 }
