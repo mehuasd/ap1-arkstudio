@@ -201,9 +201,6 @@ body{
     justify-items: center;
     color: #fff;
     font-family: Arial;
-    
-    /* justify-content: center; */
-    /* flex-direction: column; */
 }
 .navbar2-copy{
     background-color: #434343;
@@ -240,7 +237,7 @@ body{
     list-style: none;
     padding: 0px;
 }
-.flist > li{
+.flist li{
     margin-bottom: 10px;
 }
 .fcard{
