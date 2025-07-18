@@ -107,6 +107,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 50px;
+    /* width: 33%; */
 }
 .card{
     display: flex;
@@ -115,6 +116,7 @@ body{
     grid-template-columns: auto;
     margin: 20px;
     flex-direction: column;
+    
 }
 .bcr{
     font-family:'Arial';
@@ -131,6 +133,9 @@ body{
     padding: 0px;
     /* font-family: Arial; */
 }
+.separator{
+    width: 70%;
+}
 /* ---------- */
 
 .gallery-container{
@@ -140,7 +145,7 @@ body{
     gap: 0px;
 }
 .gallery-img{
-    width: 304px;
+    width: 20%;
 }
 
 /* ---------- */
@@ -160,28 +165,86 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
-    padding: 0px;
-    width: 70%;
-    /* gap: 10px; */
+    gap: 0px;
+    /* padding: 10px; */
+    width: 60%;
+    font-size: 14px;
+    gap: 10px;
 }
 .john{
     font-weight: 800;
 }
 .timage{
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 .tcard{
     display: grid;
     justify-items: center;
     text-align: center;
     grid-template-columns: auto;
-    margin: 0px;
     flex-direction: column;
-    width: 60%;
+    width: 90%;
+    padding: 15px;
+    height: 20%;
 }
 .tcontainer{
     display: flex;
     justify-content: center;
+    margin: 30px 0px 60px 0px;
+    
+}
+.tcontent{
+    padding: 0px;
+    margin: 0px;
+    /* height: 30px; */
+    
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f1f1;
+}
+.brand-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    width: 60%;
+}
+
+/* -------------- */
+
+#footer{
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.navbar2-copy{
+    background-color: #434343;
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+    font-family: arial;
+    /* padding: 20px; */
+    width: 40%;
+    padding: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+.nav2-btn-copy{
+    background-color: #50ccff;
+    padding: 10px 20px;
+    color: #fff ;
+    border: none;
+    text-transform: uppercase;
+    /* margin: 20px; */
+}
+.fcontainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.flist{
+    list-style: none;
 }
