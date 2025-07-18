@@ -27,6 +27,7 @@ body{
     top: 0px;
     left: 0px;
     width: 100%;
+    z-index: 1;
 }
 .navbar2{
     position: absolute;
@@ -38,6 +39,7 @@ body{
     background-color: #fff;
     font-family: arial;
     opacity: 0.9;
+    
     /* padding: 20px; */
     width: 100%;
     font-weight: 500;
@@ -66,29 +68,6 @@ body{
 }
 
 /* -------------------------- */
-/* #sec-container{
-    display: flex;
-    justify-content: center;
-} */
-/* .mcontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-.card-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-.card{
-    display: flex;
-    background-color: #50ccff;
-    justify-content: center;
-
-} */
-/* .cent{
-    text-align: center;
-} */
 
 #sec-container{
     display: flex;
@@ -97,11 +76,11 @@ body{
 }
 .mcontainer{
     width: 70%;
-    background-color: #afa5a51b;
+    background-color: #fbfbfb;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 50px 50px 80px 50px;
+    padding: 60px 50px 80px 50px;
 }
 .card-container{
     display: grid;
@@ -161,7 +140,7 @@ body{
     flex-direction: column;
 }
 .testimonials-container{
-    background-color: #afa5a51b;
+    background-color: #fbfbfb;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
@@ -192,7 +171,7 @@ body{
 .tcontainer{
     display: flex;
     justify-content: center;
-    margin: 30px 0px 60px 0px;
+    margin: 30px 0px 70px 0px;
     
 }
 .tcontent{
@@ -217,34 +196,62 @@ body{
 
 #footer{
     background-color: #353535;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    color: #fff;
+    font-family: Arial;
+    
+    /* justify-content: center; */
     /* flex-direction: column; */
 }
 .navbar2-copy{
     background-color: #434343;
     display: flex;
-    justify-content: space-between;
-        align-items: center;
+    justify-content: space-around;
+    align-items: center;
     font-family: arial;
+    font-size: 18px;
     /* padding: 20px; */
-    width: 40%;
-    padding: 10px;
+    width: 55%;
+    padding: 1.5%;
     font-weight: 500;
     color: #fff;
 }
 .nav2-btn-copy{
     background-color: #50ccff;
-    padding: 10px 20px;
+    font-size: 18px;
+    padding: 1% 7%;
     color: #fff ;
     border: none;
+    margin-left: 15px;
     text-transform: uppercase;
     /* margin: 20px; */
 }
 .fcontainer{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr); */
+    justify-content: space-around;
+    width: 60%;
+    padding: 20px;
+    margin: 50px;
 }
 .flist{
     list-style: none;
+    padding: 0px;
+}
+.flist > li{
+    margin-bottom: 10px;
+}
+.fcard{
+    margin: 20px;
+    width: 25%;
+}
+.fhead{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.copy-right{
+    margin-bottom: 20px;
 }
