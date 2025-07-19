@@ -1,7 +1,13 @@
-body{
+* {
     margin: 0px;
     padding: 0px;
+    font-family: Arial;
 }
+.bcr{
+    color: #6e6e6e;
+}
+
+/* ----------navbars----------- */
 .list{
     display: flex;
     align-items: center;
@@ -19,9 +25,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-around;
-    /* color: #fff; */
     background-color: #fff;
-    font-family: arial;
     opacity: 0.8;
     position: fixed;
     top: 0px;
@@ -37,10 +41,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    font-family: arial;
     opacity: 0.9;
-    
-    /* padding: 20px; */
     width: 100%;
     font-weight: 500;
 }
@@ -56,7 +57,7 @@ body{
     
 }
 
-/* -------------------------- */
+/* ------------hero-------------- */
 
 #hero-container{
     background-image: url("media/billboard.jpg");
@@ -67,7 +68,7 @@ body{
     height: 100vh;
 }
 
-/* -------------------------- */
+/* ------------second-section--------------- */
 
 #sec-container{
     display: flex;
@@ -86,7 +87,6 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 50px;
-    /* width: 33%; */
 }
 .card{
     display: flex;
@@ -97,37 +97,29 @@ body{
     flex-direction: column;
     
 }
-.bcr{
-    font-family:'Arial';
-    color: #6e6e6e;
-}
 .shead{
     margin: 20px 0px 10px 0px;
     padding: 0px;
-    /* color: #6e6e6e; */
-    font-family: Arial;
 }
 .scontent{
     margin: 0px;
     padding: 0px;
-    /* font-family: Arial; */
 }
 .separator{
     width: 70%;
+    margin: 15px 0px;
 }
-/* ---------- */
+/* ----------gallery----------- */
 
 .gallery-container{
     display: flex;
-    /* grid-template-columns: repeat(5,1fr); */
-    /* width: 100%; */
     gap: 0px;
 }
 .gallery-img{
     width: 20%;
 }
 
-/* ---------- */
+/* ------testimonials----- */
 
 .t-head{
     text-align: center;
@@ -145,13 +137,15 @@ body{
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     gap: 0px;
-    /* padding: 10px; */
     width: 60%;
     font-size: 14px;
     gap: 10px;
 }
 .john{
     font-weight: 800;
+}
+.thead{
+    margin: 10px 0px 15px 0px;
 }
 .timage{
     border-radius: 50%;
@@ -177,13 +171,12 @@ body{
 .tcontent{
     padding: 0px;
     margin: 0px;
-    /* height: 30px; */
-    
 }
 .brand{
     display: flex;
     justify-content: center;
     background-color: #f2f1f1;
+    margin-top: 20px;
 }
 .brand-main{
     display: flex;
@@ -192,7 +185,7 @@ body{
     width: 60%;
 }
 
-/* -------------- */
+/* ---------footer----------- */
 
 #footer{
     background-color: #353535;
@@ -200,18 +193,15 @@ body{
     grid-template-columns: auto;
     justify-items: center;
     color: #fff;
-    font-family: Arial;
 }
 .navbar2-copy{
     background-color: #434343;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: arial;
     font-size: 18px;
-    /* padding: 20px; */
     width: 55%;
-    padding: 1.5%;
+    padding: 1%;
     font-weight: 500;
     color: #fff;
 }
@@ -220,14 +210,13 @@ body{
     font-size: 18px;
     padding: 1% 7%;
     color: #fff ;
+    font-weight: 500;
     border: none;
     margin-left: 15px;
     text-transform: uppercase;
-    /* margin: 20px; */
 }
 .fcontainer{
     display: flex;
-    /* grid-template-columns: repeat(4,1fr); */
     justify-content: space-around;
     width: 60%;
     padding: 20px;
@@ -236,9 +225,10 @@ body{
 .flist{
     list-style: none;
     padding: 0px;
+    line-height: 22px;
 }
 .flist li{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .fcard{
     margin: 20px;
